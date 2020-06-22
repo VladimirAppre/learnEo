@@ -1,0 +1,51 @@
+.body {
+  background-color: #26292E;
+  color: #2E2F30;
+  font-family: sans-serif;
+  height: 100em;
+}
+
+.dialog {
+  float:right;
+  text-align: left;
+  width: 60%;
+  margin: 5% auto 0;
+}
+
+.h1 { 
+  font-size: 4em;
+  color: #fff;
+  line-height: 1em;
+}
+
+.p {
+  font-size: 1.4em;
+  color: #fff;
+  padding-right: 5%;
+}
+.image {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 300px;
+  width: 300px;
+}
+@media only screen and (max-width: 767px) {
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+  .dialog {
+    float:none;
+    text-align: center;
+    width: 90%;
+    margin-top: 70%
+  }
+}
+
+@media only screen and (max-width: 415) {
+  .image {
+    height: 100px;
+    width: 100px;
+  }
+}

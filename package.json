@@ -1,0 +1,21 @@
+{
+  "name": "learn-each-other",
+  "version": "1.0.0",
+  "description": "LearnEO project",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm install && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/GryphM/learn-each-other.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/GryphM/learn-each-other/issues"
+  },
+  "homepage": "https://gitlab.com/GryphM/learn-each-other#readme"
+}

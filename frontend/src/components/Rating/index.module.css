@@ -1,0 +1,13 @@
+.color i {
+  color: #F3E367;
+}
+.color{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.color div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

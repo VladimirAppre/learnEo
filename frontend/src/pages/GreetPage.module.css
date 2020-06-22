@@ -1,0 +1,24 @@
+.titleText{
+  margin-top: 40%;
+  font-weight: 300;
+}
+
+.text{
+  font-weight: 300;
+}
+.links{
+  margin-top: 80px;
+}
+.links a{
+  background-color: transparent;
+  border: #F3E367 solid 3px;
+  border-radius: 5px;
+  height: 50px;
+  vertical-align: middle;
+  width: 150px;
+  margin: 50px 50px 0 0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

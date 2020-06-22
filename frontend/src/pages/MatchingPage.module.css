@@ -1,0 +1,20 @@
+.ava{
+  width: 80px;
+}
+.chipMar{
+  padding-bottom: 20px;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.linkWrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.noMatching {
+  margin-top: 50px;
+}

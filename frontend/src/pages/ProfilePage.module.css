@@ -1,0 +1,71 @@
+.avatar{
+  vertical-align: middle;
+  width:200px;
+  height: 90%;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.name{
+  margin-top: 50px;
+}
+.name div{
+  font-size: 1.8em;
+  margin-left: 15px;
+}
+.rating{
+  font-size: 30pxem;
+  justify-content: center;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.profilePageButtons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.collection .collection-item.avatar {
+  background-color: red !important;
+}
+
+.chipsInner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chipsInner span{
+  white-space: nowrap;
+  width: 85%;
+}
+
+@media only screen and (max-width: 670px) {
+  .profilePageButtons {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+  }
+  .name{
+    margin-top: 10px;
+  }
+  .name div{
+    font-size: 1.5em;
+  }
+  .avatar{
+    margin-top: 25px;
+  }
+  .name div:nth-child(2){
+    margin-top: -10px;
+  }
+}
